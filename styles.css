@@ -1,0 +1,219 @@
+body, html {
+    height: 120%;
+}
+
+
+.top-header {
+ 
+  background-color:#d34141;
+  height: 10%;
+ 
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+h1{
+    color: black;
+    font-size: 50px;
+    position: relative;
+    right: 160%;
+    
+}
+h2{
+    text-align: center;
+}
+.Search input[type="text"] {
+    position: absolute;
+    left: 80%;
+    top: auto;
+}
+
+
+.header-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+ 
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav a:hover {
+    background-color:#c4c4c4 ;
+    color: black;
+  }
+.nav {
+    background-color: #c4c4c4;
+    color: black;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin: 20px 700px 0px 700px;
+    
+  
+
+}
+.nav > li {
+    display: inline-block;
+    padding-right: 0px 25px 0px 25px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #d34141;
+    padding: 14px 16px;
+}
+.nav > li > a {
+    text-decoration: none;
+    
+}
+
+* {box-sizing:border-box}
+
+.mySlides {
+  display: unset;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #c4c4c4;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5%;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 5%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.list-container{
+  background-color:#c4c4c4;
+  background-position: center;
+  margin: 20px 500px 0px 500px;
+ 
+}
+.inside-background{
+  background-color: #d34141;
+  margin: 30px 90px 20px 90px;
+ 
+}
+.navbar {
+  background-color: #c4c4c4;
+  color: black;
+  list-style: none;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: 20px;
+  
+
+
+}
+.navbar > li {
+  display: inline-block;
+  padding-right: 0px 10px 0px 10px;
+  margin: 0px 10px 0px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #d34141;
+  padding: 14px 16px;
+}
+.navbar > li > a {
+  text-decoration: none;
+  
+}
+.more{
+  list-style: none;
+  text-align: center;
+}
